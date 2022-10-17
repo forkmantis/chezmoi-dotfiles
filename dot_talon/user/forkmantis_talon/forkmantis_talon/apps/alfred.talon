@@ -1,0 +1,2 @@
+alfred:
+    key(alt-space)
