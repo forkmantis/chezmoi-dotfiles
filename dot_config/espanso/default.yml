@@ -1,0 +1,79 @@
+# espanso configuration file
+
+# This is the default configuration file, change it as you like it
+# You can refer to the official documentation:
+# https://espanso.org/docs/
+
+# Matches are the substitution rules, when you type the "trigger" string
+# it gets replaced by the "replace" string.
+matches:
+  # Daily Status Header
+  - trigger: ":statusthread"
+    replace: "```\r{{mydate}} Status Thread\r```"
+    vars:
+      - name: mydate
+        type: date
+        params:
+          format: "%m/%d/%Y"
+
+  # Metal Song of the Day
+  - trigger: ":dailymetal"
+    replace: "```\r{{mydate}} Metal Song of the Day Thread\r```"
+    vars:
+      - name: mydate
+        type: date
+        params:
+          format: "%Y-%m-%d"
+
+  # Dates
+  - trigger: ":date"
+    replace: "{{mydate}}"
+    vars:
+      - name: mydate
+        type: date
+        params:
+          format: "%Y-%m-%d"
+
+  # Shell commands
+  - trigger: ":shell"
+    replace: "{{output}}"
+    vars:
+      - name: output
+        type: shell
+        params:
+          cmd: "echo Hello from your shell"
+
+  # RC Heli  logging
+  - trigger: ":rcheli"
+    replace: "t add \"(T) rcheli: "
+
+  # Exercise logging
+  - trigger: ":9minkb1"
+    replace: "t add \"(W) wod: 9 minute KB/BW #1 3 min ea of crawling, dead bugs, kb carry\""
+
+  - trigger: ":9minkb2"
+    replace: "t add \"(W) wod: 9 minute KB/BW #2 3 min ea of marching, crawling, kb carry\""
+
+  - trigger: ":9minkb3"
+    replace: "t add \"(W) wod: 9 minute KB/BW #3 3 min ea of dead bugs, marching, kb carry\""
+
+  - trigger: ":tgu"
+    replace: "t add \"(W) wod: turkish getups 8 @ 25#\""
+
+  - trigger: ":clubs"
+    replace: "t add \"(W) wod: Indian Clubs 10 minutes\""
+
+  - trigger: ":flexbar"
+    replace: "t add \"(W) rehab: Flexbar \""
+
+  - trigger: ":pball"
+    replace: "t add \"(W) rehab: PowerBall \""
+
+  - trigger: ":shieldcast"
+    replace: "t add \"(W) wod: Shield Cast 10 reps 5 lbs \""
+
+  - trigger: ":pryinghalo"
+    replace: "t add \"(W) wod: Prying Squats + Halos \""
+
+  - trigger: ":fingers"
+    replace: "t add \"(W) rehab: Powerband Finger Extensions \""
