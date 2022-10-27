@@ -9,6 +9,14 @@ fi
 # Z setup
 source "$(brew --prefix)/etc/profile.d/z.sh"
 
+CZHOME=~/.local/share/chezmoi
+
+# source all alias files
+for src in $(find -H "$CZHOME/aliases" -name '*.alias')
+do
+    source $src
+done
+
 # Todo aliases
 alias t="todo.sh -a"
 alias tls="clear; todo.sh ls -+icebox"
