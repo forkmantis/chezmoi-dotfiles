@@ -16,21 +16,3 @@ for src in $(find -H "$CZHOME/aliases" -name '*.alias')
 do
     source $src
 done
-
-# Todo aliases
-alias t="todo.sh -a"
-alias tls="clear; todo.sh ls -+icebox"
-alias tlsi="clear; todo.sh ls +icebox"
-alias tlw="tls -@home -+icebox"
-alias tlh="tls -@work -+icebox"
-alias trep="tail -15 ~/Dropbox/todo/report.txt"
-alias tice="t listfile icebox"
-alias tsin="t lsa | grep -i pavel"
-alias tpush="t lsa | grep 'wod: StrongFirst Pushup'"
-alias tpull="t lsa | grep 'wod: StrongFirst Pullup'"
-alias tvim="vim ~/Dropbox/todo/todo.txt"
-alias twod="t lsa | grep '\\(wod\\|rehab\\):'"
-alias ttgu="t lsa | grep '\\(wod\\|rehab\\):' | grep -i getup"
-alias tclub="t lsa | grep '\\(wod\\|rehab\\):' |; grep -i \"single handed club\""
-
-# function txfer() { (cat ~/Dropbox/todo/vimdo.txt; echo ) | tee -a ~/Dropbox/todo/todo.txt;  echo "" > ~/Dropbox/todo/vimdo.txt }
