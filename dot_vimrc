@@ -1,5 +1,6 @@
 packadd minpac
 call minpac#init()
+call minpac#add('easymotion/vim-easymotion')
 
 set nocompatible              " be iMproved, required
 filetype off                  " required
