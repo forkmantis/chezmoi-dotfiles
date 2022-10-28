@@ -1,6 +1,7 @@
 packadd minpac
 call minpac#init()
 call minpac#add('easymotion/vim-easymotion')
+call minpac#add('k-takata/minpac', {'type': 'opt'})
 
 set nocompatible              " be iMproved, required
 filetype off                  " required
