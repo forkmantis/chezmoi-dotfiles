@@ -1,1 +1,1 @@
-let g:gitgutter_git_executable = '/usr/local/bin/git'
+let g:gitgutter_git_executable = '/usr/bin/git'
