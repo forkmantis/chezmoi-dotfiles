@@ -1,6 +1,9 @@
+set packpath^=~/.vim
 packadd minpac
 call minpac#init()
 call minpac#add('easymotion/vim-easymotion')
+call minpac#add('junegunn/fzf')
+call minpac#add('junegunn/fzf.vim')
 call minpac#add('k-takata/minpac', {'type': 'opt'})
 
 set nocompatible              " be iMproved, required
@@ -97,6 +100,7 @@ nnoremap <silent> <C-l> :<C-u>nohlsearch<CR><C-l>
 cnoremap <expr> %% getcmdtype() == ':' ? expand('%:h').'/' : '%%'
 
 " Fuzzy Finding (fzf) stuff
+set runtimepath^=/usr/local/opt/fzf
 let mapleader = " "
 nmap <Leader>; :buffers<CR>
 nmap <Leader>t :files<CR>
