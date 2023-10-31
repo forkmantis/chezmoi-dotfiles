@@ -35,7 +35,7 @@ matches:
     replace: "t add \"(W) wod: 9 minute KB/BW #3 3 min ea of dead bugs, marching, kb carry\""
 
   - trigger: ":tgu"
-    replace: "t add \"(W) wod: turkish getups LR [25,25,25,25,25]\""
+    replace: "t add \"(W) wod: turkish getups LR [20,20,20,20,20]\""
 
   - trigger: ":clubs"
     replace: "t add \"(W) wod: Indian Clubs 10 minutes\""
