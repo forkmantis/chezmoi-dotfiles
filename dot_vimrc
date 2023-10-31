@@ -1,11 +1,14 @@
 set packpath^=~/.vim
 packadd minpac
 call minpac#init()
+call minpac#add('airblade/vim-gitgutter')
 call minpac#add('easymotion/vim-easymotion')
+call minpac#add('honza/vim-snippets')
 call minpac#add('junegunn/fzf')
 call minpac#add('junegunn/fzf.vim')
+call minpac#add('prabirshrestha/asyncomplete')
+call minpac#add('prabirshrestha/asyncomplete-ultisnips')
 call minpac#add('k-takata/minpac', {'type': 'opt'})
-call minpac#add('airblade/vim-gitgutter')
 
 set nocompatible              " be iMproved, required
 filetype off                  " required
