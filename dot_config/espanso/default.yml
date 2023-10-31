@@ -35,7 +35,7 @@ matches:
     replace: "t add \"(W) wod: 9 minute KB/BW #3 3 min ea of dead bugs, marching, kb carry\""
 
   - trigger: ":tgu"
-    replace: "t add \"(W) wod: turkish getups 8 @ 25#\""
+    replace: "t add \"(W) wod: turkish getups LR [25,25,25,25,25]\""
 
   - trigger: ":clubs"
     replace: "t add \"(W) wod: Indian Clubs 10 minutes\""
@@ -54,3 +54,12 @@ matches:
 
   - trigger: ":fingers"
     replace: "t add \"(W) rehab: Powerband Finger Extensions \""
+
+  - trigger: ":1club"
+    replace: "(W) wod: Single Handed Club session 1 [inside circles, outside circles, shield casting] {x} sets of 5 @ 2#"
+
+  - trigger: ":2club"
+    replace: "(W) wod: Single Handed Club session 2 [inside pendulum, outside pendulum, 180 pullovers] {x} sets of 5 @ 2#"
+
+  - trigger: ":3club"
+    replace: "(W) wod: Single Handed Club session 3 [mill, reverse mill, swipe] {x} sets of 5 @ 2#"
