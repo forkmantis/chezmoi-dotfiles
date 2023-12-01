@@ -56,7 +56,7 @@ matches:
     replace: "t add \"(W) rehab: Powerband Finger Extensions \""
 
   - trigger: ":deck"
-    replace: "(W) wod: Rolling Deck Squats {sets} of 4 @ 12kg"
+    replace: "(W) wod: Rolling Deck Squats EMOM {sets} of 4 @ 12kg"
 
   - trigger: ":1club"
     replace: "(W) wod: Single Handed Club session 1 [inside circles, outside circles, shield casting] {x} sets of 5 @ 3.5#"
