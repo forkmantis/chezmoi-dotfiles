@@ -59,10 +59,10 @@ matches:
     replace: "(W) wod: Rolling Deck Squats EMOM {sets} sets of 4 @ 12kg"
 
   - trigger: ":1club"
-    replace: "(W) wod: Single Handed Club session 1 [inside circles, outside circles, shield casting] {x} sets of 5 @ 3.5#"
+    replace: "(W) wod: SHC 1: {x} sets of 5 @ 3.5# [inside circles, outside circles, shield casting]"
 
   - trigger: ":2club"
-    replace: "(W) wod: Single Handed Club session 2 [inside pendulum, outside pendulum, 180 pullovers] {x} sets of 5 @ 3.5#"
+    replace: "(W) wod: SHC 2: {x} sets of 5 @ 3.5# [inside pendulum, outside pendulum, 180 pullovers]"
 
   - trigger: ":3club"
-    replace: "(W) wod: Single Handed Club session 3 [mill, reverse mill, swipe] {x} sets of 5 @ 3.5#"
+    replace: "(W) wod: SHC 3: {x} sets of 5 @ 3.5# [mill, reverse mill, swipe]"
