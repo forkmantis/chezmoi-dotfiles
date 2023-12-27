@@ -37,6 +37,9 @@ matches:
   - trigger: ":tgu"
     replace: "t add \"(W) wod: turkish getups LR [20,20,20,20,20]\""
 
+  - trigger: ":kbfs"
+    replace: "t add \"(W) wod: Kettlebell Double Front Squat {x} sets of 5 @ 12kg\""
+
   - trigger: ":clubs"
     replace: "t add \"(W) wod: Indian Clubs 10 minutes\""
 
