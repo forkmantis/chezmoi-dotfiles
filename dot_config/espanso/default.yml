@@ -22,41 +22,41 @@ matches:
 
   # RC Heli  logging
   - trigger: ":rcheli"
-    replace: "t add \"(T) rcheli: "
+    replace: "(T) rcheli: "
 
   # Exercise logging
   - trigger: ":9minkb1"
-    replace: "t add \"(W) wod: 9 minute KB/BW #1 3 min ea of crawling, dead bugs, kb carry\""
+    replace: "(W) wod: 9 minute KB/BW #1 3 min ea of crawling, dead bugs, kb carry"
 
   - trigger: ":9minkb2"
-    replace: "t add \"(W) wod: 9 minute KB/BW #2 3 min ea of marching, crawling, kb carry\""
+    replace: "(W) wod: 9 minute KB/BW #2 3 min ea of marching, crawling, kb carry"
 
   - trigger: ":9minkb3"
-    replace: "t add \"(W) wod: 9 minute KB/BW #3 3 min ea of dead bugs, marching, kb carry\""
+    replace: "(W) wod: 9 minute KB/BW #3 3 min ea of dead bugs, marching, kb carry"
 
   - trigger: ":tgu"
-    replace: "t add \"(W) wod: turkish getups LR [20,20,20,20,20]\""
+    replace: "(W) wod: turkish getups LR [20,20,20,20,20]"
 
   - trigger: ":kbfs"
-    replace: "t add \"(W) wod: Kettlebell Double Front Squat {x} sets of 5 @ 12kg\""
+    replace: "(W) wod: Kettlebell Double Front Squat {x} sets of 5 @ 12kg"
 
   - trigger: ":clubs"
-    replace: "t add \"(W) wod: Indian Clubs 10 minutes\""
+    replace: "(W) wod: Indian Clubs 10 minutes"
 
   - trigger: ":flexbar"
-    replace: "t add \"(W) rehab: Flexbar \""
+    replace: "(W) rehab: Flexbar "
 
   - trigger: ":pball"
-    replace: "t add \"(W) rehab: PowerBall \""
+    replace: "(W) rehab: PowerBall "
 
   - trigger: ":shieldcast"
-    replace: "t add \"(W) wod: Shield Cast 10 reps 5 lbs \""
+    replace: "(W) wod: Shield Cast 10 reps 5 lbs "
 
   - trigger: ":pryinghalo"
-    replace: "t add \"(W) wod: Prying Squats + Halos \""
+    replace: "(W) wod: Prying Squats + Halos "
 
   - trigger: ":fingers"
-    replace: "t add \"(W) rehab: Powerband Finger Extensions \""
+    replace: "(W) rehab: Powerband Finger Extensions "
 
   - trigger: ":deck"
     replace: "(W) wod: Rolling Deck Squats EMOM {sets} sets of 4 @ 12kg"
