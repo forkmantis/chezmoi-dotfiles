@@ -38,7 +38,7 @@ matches:
     replace: "(W) wod: turkish getups LR [20,20,20,20,20]"
 
   - trigger: ":kbfs"
-    replace: "(W) wod: Kettlebell Double Front Squat {x} sets of 5 @ 13kg"
+    replace: "(W) wod: Kettlebell Double Front Squat {x} sets of 5 @ 14kg"
 
   - trigger: ":clubs"
     replace: "(W) wod: Indian Clubs 10 minutes"
