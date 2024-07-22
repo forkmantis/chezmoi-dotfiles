@@ -69,3 +69,15 @@ matches:
 
   - trigger: ":3club"
     replace: "(W) wod: SHC 3: {x} sets of 5 @ 1# [mill, reverse mill, swipe]"
+
+  - trigger: ":sp1"
+    replace: "(W) wod: SHC SP1 [inside circles, outside circles, shield casts] {x} x 5/5 @ 1#"
+
+  - trigger: ":sp2"
+    replace: "(W) wod: SHC SP2 [inside pendulum, outside pendulum, pullover] {x} x 5/5 @ 1#"
+
+  - trigger: ":sp3"
+    replace: "(W) wod: SHC SP3 [alt circles, alt pendulum, alt 180 pullover] {x} x 5/5 @ 1#"
+
+  - trigger: ":sp4"
+    replace: "(W) wod: SHC SP4 [mill, reverse mill] {x} x 5/5 @ 1#"
