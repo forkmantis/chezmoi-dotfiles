@@ -8,10 +8,10 @@ alias tice="t listfile icebox"
 alias tsin="t lsa | grep -i pavel"
 alias tpush="t lsa | grep 'wod: StrongFirst Pushup'"
 alias tpull="t lsa | grep 'wod: StrongFirst Pullup'"
-alias tvim="vim ~/Library/CloudStorage/Dropbox/todo/todo.txt"
+alias tvim="vim ~/Dropbox/todo/todo.txt"
 
 alias twod="t lsa | grep '\\(wod\\|rehab\\):'"
 alias ttgu="t lsa | grep '\\(wod\\|rehab\\):' | grep -i getup"
 alias tclub="t lsa | grep '\\(wod\\|rehab\\):' |; grep -i \"single handed club\""
 
-function txfer() { (cat ~/Dropbox/todo/vimdo.txt; echo ) | sed -e 's#<br />#\n#' | tee -a ~/Library/CloudStorage/Dropbox/todo/todo.txt;  echo "" > ~/Library/CloudStorage/Dropbox/todo/vimdo.txt }
+function txfer() { (cat ~/Dropbox/todo/vimdo.txt; echo ) | sed -e 's#<br />#\n#' | tee -a ~/Dropbox/todo/todo.txt;  echo "" > ~/Dropbox/todo/vimdo.txt }
