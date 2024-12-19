@@ -1,8 +1,0 @@
-2f68c112ddf8752eb3b71d6c213d2e75dd78d0e1		branch 'master' of https://github.com/k-takata/minpac
-86722338fbd0f948b7f41588b02e81be59ab4114	not-for-merge	branch 'appveyor-cache-temp' of https://github.com/k-takata/minpac
-e04fbf9d1b96e789c43ac48223d8c11cea0fd347	not-for-merge	branch 'appveyor-test' of https://github.com/k-takata/minpac
-0fd746b44544f19c2e4ab6dc31f4eb07000b1a0b	not-for-merge	branch 'ci-enable-neovim-on-ubuntu' of https://github.com/k-takata/minpac
-2f68c112ddf8752eb3b71d6c213d2e75dd78d0e1	not-for-merge	branch 'devel' of https://github.com/k-takata/minpac
-a01f565cd3e24c3e9f4ad9b1c665b782bbc51e91	not-for-merge	branch 'improve-ci-temp' of https://github.com/k-takata/minpac
-e096a297bbc91b16416b90598b3810df543382db	not-for-merge	branch 'runtest-upstream' of https://github.com/k-takata/minpac
-5351955003b07a747e700c119ff9483c84b248f4	not-for-merge	branch 'update-async-vim' of https://github.com/k-takata/minpac
