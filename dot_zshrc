@@ -1,5 +1,5 @@
 # Ensure brew is in the PATH.
-export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:~/.dotnet/tools:/opt/homebrew/bin
+export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:~/bin:~/.dotnet/tools:/opt/homebrew/bin
 
 # machine specific config
 if [ -f ~/.localrc ]; then
