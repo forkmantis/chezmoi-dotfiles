@@ -1,0 +1,9 @@
+qr-this() {
+	if [ -n "$1" ]
+	then
+		zint -d "$1" -b QRCODE --scale=2
+		echo "qr code saved as out.png"
+	else
+		echo "Please provide a string to QR-ify"
+	fi
+}
