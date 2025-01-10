@@ -14,4 +14,4 @@ alias twod="t lsa | grep '\\(wod\\|rehab\\):'"
 alias ttgu="t lsa | grep '\\(wod\\|rehab\\):' | grep -i getup"
 alias tclub="t lsa | grep '\\(wod\\|rehab\\):' |; grep -i \"single handed club\""
 
-function txfer() { (cat ~/Dropbox/todo/vimdo.txt; echo ) | sed -e 's#<br />#\n#' | tee -a ~/Dropbox/todo/todo.txt;  echo "" > ~/Dropbox/todo/vimdo.txt }
+function txfer() { (cat ~/Dropbox/todo/vimdo.txt; echo ) | sed -e 's#<br />#\n#g' | tee -a ~/Dropbox/todo/todo.txt;  echo "" > ~/Dropbox/todo/vimdo.txt }
