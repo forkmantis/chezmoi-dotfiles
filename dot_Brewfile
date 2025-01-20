@@ -2,7 +2,7 @@ cask_args appdir: '/Applications'
 
 tap 'azure/functions'
 tap 'chrokh/tap'
-tap 'federico-terzi/espanso'
+tap 'espanso/espanso'
 tap 'homebrew/bundle'
 tap 'azure/bicep'
 
