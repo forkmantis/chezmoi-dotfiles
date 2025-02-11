@@ -50,3 +50,5 @@ matches:
     replace: "(W) wod: SHC SP3 [alt circles, alt pendulum, alt 180 pullover] {{sets}} x {{reps}}/{{reps}} @ 5#"
   - regex: ":sp4\\((?P<sets>\\d+),(?P<reps>\\d+)\\)"
     replace: "(W) wod: SHC SP4 [mill, reverse mill] {{sets}} x {{reps}}/{{reps}} @ 5#"
+  - regex: ":cs\\((?P<sets>\\d+),(?P<reps>\\d+)\\)"
+    replace: "(W) wod: Cossack Squats {{sets}} x {{reps}}/{{reps}} @ 0#"
