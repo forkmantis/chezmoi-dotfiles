@@ -52,3 +52,5 @@ matches:
     replace: "(W) wod: SHC SP4 [mill, reverse mill] {{sets}} x {{reps}}/{{reps}} @ {{weight}}#"
   - regex: ":cs\\((?P<sets>\\d+),(?P<reps>\\d+),(?P<weight>\\d+(\\.\\d+)?)\\)"
     replace: "(W) wod: Cossack Squats {{sets}} x {{reps}}/{{reps}} @ {{weight}}#"
+  - regex: ":atg\\((?P<sets>\\d+),(?P<reps>\\d+),(?P<weight>\\d+(\\.\\d+)?)\\)"
+    replace: "(W) wod: ATG Split Squats {{sets}} x {{reps}}/{{reps}} @ {{weight}}#"
